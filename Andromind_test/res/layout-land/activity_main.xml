@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+     <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_signal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Signal" />
+
+            <ProgressBar
+                android:id="@+id/psignal"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip" />
+
+            <TextView
+                android:id="@+id/text_attention"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attention" />
+
+            <ProgressBar
+                android:id="@+id/pattention"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip" />
+
+            <TextView
+                android:id="@+id/text_meditation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meditation" />
+
+            <ProgressBar
+                android:id="@+id/pmeditation"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip" />
+
+            <TextView
+                android:id="@+id/text_delta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delta" />
+
+            <ProgressBar
+                android:id="@+id/pdelta"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip" />
+
+            <TextView
+                android:id="@+id/text_theta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Theta" />
+
+            <ProgressBar
+                android:id="@+id/ptheta"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip" />
+
+            <TextView
+                android:id="@+id/text_lalpha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Low Alpha" />
+
+            <ProgressBar
+                android:id="@+id/plalpha"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip" />
+
+            <TextView
+                android:id="@+id/text_halpha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High Alpha" />
+
+            <ProgressBar
+                android:id="@+id/phalpha"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip" />
+
+            <TextView
+                android:id="@+id/text_lbeta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Low Beta" />
+
+            <ProgressBar
+                android:id="@+id/plbeta"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip" />
+
+            <TextView
+                android:id="@+id/text_hbeta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High Beta" />
+
+            <ProgressBar
+                android:id="@+id/phbeta"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip" />
+
+            <TextView
+                android:id="@+id/text_lgamma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Low Gamma" />
+
+            <ProgressBar
+                android:id="@+id/plgamma"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip" />
+
+            <TextView
+                android:id="@+id/text_hgamma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High Gamma" />
+
+            <ProgressBar
+                android:id="@+id/phgamma"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip" />
+
+        </LinearLayout>
+    
+
+</ScrollView>
